@@ -37,7 +37,6 @@
 
   tbody td {
     background-color: #ebebeb;
-    font-weight: bold;
   }
 
   tbody tr:nth-child(even) {
@@ -46,6 +45,11 @@
 
   tbody tr:hover {
     background-color: #ddd;
+  }
+
+  .subline {
+    text-decoration: underline;
+    font-weight: normal;
   }
 </style>
 <title>Catálogo de Produtos</title>
@@ -64,20 +68,22 @@
   </thead>
   <tbody>
   <tr>
-      <td>Faça você mesmo: Comida Japonesa</td>
+      <td><span class="subline">Faça você mesmo: Comida Japonesa</span></td>
       <td>DVD</td>
       <td>R$ 55,00</td>
   </tr>
   <tr>
-      <td>Faça você mesmo: Comida Mexicana</td>
+      <td><span class="subline">Faça você mesmo: Comida Mexicana</span></td>
       <td>DVD</td>
       <td>R$ 42,00</td>
   </tr>
   </tbody>
   <tbody>
-      <td>Faça você mesmo: Comida Árabe</td>
-      <td>VHS</td>
-      <td>R$ 39,00</td>
+      <tr>
+        <td><span class="subline">Faça você mesmo: Comida Árabe</span></td>
+        <td>VHS</td>
+        <td>R$ 39,00</td>
+      </tr>
   </tbody>
 </table>
 </body>
