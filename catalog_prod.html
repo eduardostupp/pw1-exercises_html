@@ -1,67 +1,91 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Catálogo de Produtos - Programação Web I</title>
 <style>
+  /* Estilos gerais */
   body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
   }
+
+  /* Estilos do cabeçalho */
   header {
+    background-color: #333;
+    color: white;
     text-align: center;
-    background-color: #000000;
-    color: #fff;
-    padding: 15px 0;
-  }
-  h1 {
-    margin: 0;
-    padding: 0;
-  }
-  .container {
-    display: flex;
-    justify-content: space-between;
     padding: 10px;
   }
-  .produtos {
-    border: 1px solid #ccc;
-    width: calc(53.33% - 5px);
-    box-sizing: border-box;
-    background-color: #575761;
-    color: #fff;
+
+  /* Estilos da tabela */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
   }
-  .categorias {
-    border: 1px solid #ccc;
-    width: calc(23.33% - 5px);
-    box-sizing: border-box;
-    background-color: #575761;
-    color: #fff;
+
+  /* Estilos das células do cabeçalho */
+  th {
+    background-color: #333;
+    color: white;
+    padding: 10px;
   }
-  .preco {
+
+  /* Estilos das células do corpo */
+  td {
+    padding: 8px;
     border: 1px solid #ccc;
-    width: calc(15% - 20px);
-    box-sizing: border-box;
-    background-color: #575761;
-    color: #fff;
+  }
+
+  /* Estilos das células do rodapé */
+  tfoot td {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+
+  /* Estilos das linhas alternadas do corpo */
+  tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  /* Estilos quando hover sobre as linhas do corpo */
+  tbody tr:hover {
+    background-color: #ddd;
   }
 </style>
+<title>Catálogo de Produtos</title>
 </head>
 <body>
 <header>
   <h1>Catálogo de Produtos - Programação Web I</h1>
 </header>
-<div class="container">
-  <div class="produtos">
-    <h3>Produtos</h3>
-  </div>
-  <div class="categorias">
-    <h3>Categoria</h3>
-  </div>
-  <div class="preco">
-    <h3>Preço</h3>
-  </div>
-</div>
+<table border="1">
+  <thead>
+  <tr>
+      <th>titulo 1</th>
+      <th>titulo 2</th>
+      <th>titulo 3</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+      <td>Faça você mesmo: Comida Japonesa</td>
+      <td>Faça você mesmo: Comida Mexicana</td>
+      <td>Faça você mesmo: Comida Japonesa</td>
+  </tr>
+  <tr>
+      <td>Body1 linha2</td>
+      <td>Body2 linha2</td>
+      <td>Body3 linha2</td>
+  </tr>
+  </tbody>
+  <tfoot>
+      <td>Foot 1</td>
+      <td>Foot 2</td>
+      <td>Foot 3</td>
+  </tfoot>
+</table>
 </body>
 </html>
