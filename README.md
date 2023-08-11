@@ -2,8 +2,9 @@
 ## Aluno: Eduardo Stupp
 
 ## Descrição
-Esta atividade corresponde à primeira tarefa da disciplina de Programação Web 1. O objetivo é criar uma página contendo exercícios de HTML e publicar no GitHubPages
+Este repositório corresponde à primeira atividade da disciplina de Programação Web 1. O objetivo principal é criar uma página web contendo exercícios de HTML e hospedá-la no GitHub Pages.
 
-- Clique abaixo para ser redirecionado para o Catálogo de Produtos.
+## Recursos
+- [Catálogo de Produtos - Programação Web I](./catalog_prod.html): Página contendo exemplos de tabelas e formatação utilizando HTML e CSS.
 
-[Catálogo de Produtos - Programação Web I](./catalog_prod.html)
+Clique [aqui](./catalog_prod.html) para acessar o Catálogo de Produtos.
